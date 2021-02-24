@@ -1,5 +1,7 @@
 # Machine Learning Models
 
+ML models made while progressing through the <a href="https://cognitiveclass.ai/courses/machine-learning-with-python">Machine Learning with Python course</a> by IBM.
+
 ## Regression 
 <b> Simple Linear Regression </b>
 - <a href="/py/simple-linear-grades.py">Student's Final Grade Predictor</a>
@@ -23,3 +25,5 @@ Student Performance Data Set</a> from UCI ML Repository.
 <br>The best accuracy was with 1.0 with k = 8
 <br><a href="/py/knn-iris.py"><img src="/plot/knn-iris-scatter.jpg" width="250"></a>
 <a href="/py/knn-iris.py"><img src="/plot/knn-iris-accuracy.jpg" width="300"></a>
+
+Full credit belongs to the source. Thank you IBM for providing free education.
