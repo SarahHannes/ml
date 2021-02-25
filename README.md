@@ -26,4 +26,4 @@ Student Performance Data Set</a> from UCI ML Repository.
 <br><a href="/py/knn-iris.py"><img src="/plot/knn-iris-scatter.jpg" width="250"></a>
 <a href="/py/knn-iris.py"><img src="/plot/knn-iris-accuracy.jpg" width="300"></a>
 
-Full credit belongs to the source. Thank you IBM for providing free education.
+Full credit belongs to its source. Thank you IBM for providing free education.
