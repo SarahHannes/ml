@@ -27,7 +27,7 @@ Student Performance Data Set</a> from UCI ML Repository.
 <a href="/py/knn-iris.py"><img src="/plot/knn-iris-accuracy.jpg" width="300"></a>
 
 <b> Logistic Regression </b>
-- <a href="/py/logistic-regr-classification-iris.py">Logistic Regression using KNN</a>
+- <a href="/py/logistic-regr-classification-iris.py">Iris Species Identification using Logistic Regression</a>
 <br>Uses iris dataset
 
 <br>Raw Data
