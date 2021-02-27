@@ -62,6 +62,11 @@ cm_pred = metrics.confusion_matrix(y_test, yhat, normalize='pred')
 disp_pred = metrics.ConfusionMatrixDisplay(confusion_matrix=cm_pred, display_labels=["Iris-setosa", "Iris-versicolor", "Iris-virginica"])
 disp_pred.plot()
 
+# Evaluation using confusion matrix (normalize=all -> return probability over row and col)
+cm_pred = metrics.confusion_matrix(y_test, yhat, normalize='all')
+disp_pred = metrics.ConfusionMatrixDisplay(confusion_matrix=cm_pred, display_labels=["Iris-setosa", "Iris-versicolor", "Iris-virginica"])
+disp_pred.plot()
+
 # Get Classification Report
 target_name = ["Iris-setosa", "Iris-versicolor", "Iris-virginica"]
 print(metrics.classification_report(y_test, yhat, target_names=target_name))
@@ -113,6 +118,11 @@ dispnorm_true.plot()
 
 # Evaluation using confusion matrix (normalize=pred -> return probability over predicted(col))
 cm_norm_pred = metrics.confusion_matrix(normy_test, yhatnorm, normalize='pred')
+dispnorm_pred = metrics.ConfusionMatrixDisplay(confusion_matrix=cm_norm_pred, display_labels=["Iris-setosa", "Iris-versicolor", "Iris-virginica"])
+dispnorm_pred.plot()
+
+# Evaluation using confusion matrix (normalize=all -> return probability over row and col)
+cm_norm_pred = metrics.confusion_matrix(normy_test, yhatnorm, normalize='all')
 dispnorm_pred = metrics.ConfusionMatrixDisplay(confusion_matrix=cm_norm_pred, display_labels=["Iris-setosa", "Iris-versicolor", "Iris-virginica"])
 dispnorm_pred.plot()
 
