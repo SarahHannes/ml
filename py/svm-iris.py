@@ -12,7 +12,7 @@ import pandas as pd
 from sklearn import preprocessing
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
-from sklearn.model_selection import train_test_split, StratifiedShuffleSplit
+from sklearn.model_selection import StratifiedShuffleSplit
 from sklearn import svm
 from sklearn import metrics
 
