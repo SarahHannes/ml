@@ -30,7 +30,7 @@ Student Performance Data Set</a> from UCI ML Repository.
 - <a href="/py/logistic-regr-classification-iris.py">Iris Species Identification using Logistic Regression</a>
 <br>Uses iris dataset
 
-<br>Raw Data
+<br>Prediction using Raw Data
 
 ```
 Logloss = 0.863
@@ -49,7 +49,7 @@ Iris-versicolor       0.00      0.00      0.00        13
 Confusion Matrix
 <br><a href="/py/logistic-regr-classification-iris.py"><img src="/plot/logistic-regr-iris-cmraw.jpg" width="950"></a>
 
-<br>Normalized Data
+<br>Prediction using Normalized Data
 ```
 Logloss = 0.855
 
@@ -67,5 +67,59 @@ Iris-versicolor       1.00      0.23      0.38        13
 Confusion Matrix
 <br><a href="/py/logistic-regr-classification-iris.py"><img src="/plot/logistic-regr-iris-cmnorm.jpg" width="950"></a>
 
+<b> Support Vector Machine </b>
+- <a href="/py/svm-iris.py">Iris Species Identification using various SVM kernels</a>
+<br>Uses iris dataset
+<br>Best accuracy obtained using SVM linear kernel with 0.85 accuracy score
+
+linear Classifcation Report
+```
+                 precision    recall  f1-score   support
+
+Iris-Versicolor       0.82      0.90      0.86        10
+ Iris-Virginica       0.89      0.80      0.84        10
+
+       accuracy                           0.85        20
+      macro avg       0.85      0.85      0.85        20
+   weighted avg       0.85      0.85      0.85        20
+```
+
+poly Classification Report
+```
+                 precision    recall  f1-score   support
+
+Iris-Versicolor       0.75      0.90      0.82        10
+ Iris-Virginica       0.88      0.70      0.78        10
+
+       accuracy                           0.80        20
+      macro avg       0.81      0.80      0.80        20
+   weighted avg       0.81      0.80      0.80        20
+```
+
+rbf Classification Report
+```
+                 precision    recall  f1-score   support
+
+Iris-Versicolor       0.75      0.90      0.82        10
+ Iris-Virginica       0.88      0.70      0.78        10
+
+       accuracy                           0.80        20
+      macro avg       0.81      0.80      0.80        20
+   weighted avg       0.81      0.80      0.80        20
+```
+
+Sigmoid Classification Report
+```
+                 precision    recall  f1-score   support
+
+Iris-Versicolor       0.50      1.00      0.67        10
+ Iris-Virginica       0.00      0.00      0.00        10
+
+       accuracy                           0.50        20
+      macro avg       0.25      0.50      0.33        20
+   weighted avg       0.25      0.50      0.33        20
+```
+Confusion Matrix
+<br><a href="/py/svm-iris.py"><img src="/plot/svm-iris-cm.jpg" width="800"></a>
 
 Full credit belongs to its source. Thank you IBM for providing free education.
