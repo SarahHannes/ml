@@ -14,7 +14,7 @@ Student Performance Data Set</a> from UCI ML Repository.
 
 ## Classification
 <b> Decision Tree </b>
-- <a href="/decisiontree_iris.py">Iris Species Decision Tree</a>
+- <a href="/py/decisiontree_iris.py">Iris Species Decision Tree</a>
 <br>Uses iris dataset
 <br>Model Accuracy: 0.977
 <br><a href="/py/decisiontree_iris.py"><img src="/plot/decisiontree-iris.jpg" width="500"></a>
