@@ -1,8 +1,8 @@
 # Table of Contents
 - [Supervised Learning](https://github.com/SarahHannes/ml/blob/main/README.md#Supervised-Learning)
   * [Regression](https://github.com/SarahHannes/ml/blob/main/README.md##Regression)
-    + [Simple Linear Regression](https://github.com/SarahHannes/ml/blob/main/README.md##Simple-Linear-Regression)
-    + [Non Linear Regression](https://github.com/SarahHannes/ml/blob/main/README.md##Non-Linear-Regression)
+    + [Simple Linear Regression](https://github.com/SarahHannes/ml/blob/main/README.md###Simple-Linear-Regression)
+    + [Non Linear Regression](https://github.com/SarahHannes/ml/blob/main/README.md###Non-Linear-Regression)
   * [Classification](https://github.com/SarahHannes/ml/blob/main/README.md##Classification)
     + [Decision Tree](https://github.com/SarahHannes/ml/blob/main/README.md###Decision-Tree)
     + [K-Nearest Neighbors](https://github.com/SarahHannes/ml/blob/main/README.md###K-Nearest-Neighbors)
