@@ -1,27 +1,27 @@
 # Table of Contents
 - [Supervised Learning](https://github.com/SarahHannes/ml/blob/main/README.md#Supervised-Learning)
   * [Regression](https://github.com/SarahHannes/ml/blob/main/README.md##Regression)
-   + [Simple Linear Regression](https://github.com/SarahHannes/ml/blob/main/README.md##Simple-Linear-Regression)
-   + [Non Linear Regression](https://github.com/SarahHannes/ml/blob/main/README.md##Non-Linear-Regression)
+    + [Simple Linear Regression](https://github.com/SarahHannes/ml/blob/main/README.md##Simple-Linear-Regression)
+    + [Non Linear Regression](https://github.com/SarahHannes/ml/blob/main/README.md##Non-Linear-Regression)
   * [Classification](https://github.com/SarahHannes/ml/blob/main/README.md##Classification)
-   + [Decision Tree](https://github.com/SarahHannes/ml/blob/main/README.md###Decision-Tree)
-   + [K-Nearest Neighbors](https://github.com/SarahHannes/ml/blob/main/README.md###K-Nearest-Neighbors)
-   + [Logistic Regression](https://github.com/SarahHannes/ml/blob/main/README.md###Logistic-Regression)
-   + [Support Vector Machine](https://github.com/SarahHannes/ml/blob/main/README.md###Support-Vector-Machine)
+    + [Decision Tree](https://github.com/SarahHannes/ml/blob/main/README.md###Decision-Tree)
+    + [K-Nearest Neighbors](https://github.com/SarahHannes/ml/blob/main/README.md###K-Nearest-Neighbors)
+    + [Logistic Regression](https://github.com/SarahHannes/ml/blob/main/README.md###Logistic-Regression)
+    + [Support Vector Machine](https://github.com/SarahHannes/ml/blob/main/README.md###Support-Vector-Machine)
 - [Unsupervised Learning](https://github.com/SarahHannes/ml/blob/main/README.md#Unsupervised-Learning)
- * [Clustering](https://github.com/SarahHannes/ml/blob/main/README.md##Clustering)
-  + [K-Means](https://github.com/SarahHannes/ml/blob/main/README.md###K-Means)
+  * [Clustering](https://github.com/SarahHannes/ml/blob/main/README.md##Clustering)
+    + [K-Means](https://github.com/SarahHannes/ml/blob/main/README.md###K-Means)
 
 
 <!-- toc -->
 # Supervised Learning
 ## Regression 
-<b> Simple Linear Regression </b>
+### Simple Linear Regression
 - <a href="/py/simple-linear-regression_grades.py">Student's Final Grade Predictor</a>
 <br>Uses <a href="https://archive.ics.uci.edu/ml/datasets/Student+Performance">
 Student Performance Data Set</a> from UCI ML Repository.
 
-<b> Non-Linear Regression </b>
+### Non-Linear Regression
 - <a href="/py/non-linear-regression_gdp.py">GDP Predictor</a>
 <br>Uses yearly GDP data. Can be obtained from various sources such as <a href="https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG">The World Bank</a>.
 
