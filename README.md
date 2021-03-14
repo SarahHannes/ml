@@ -1,45 +1,45 @@
 # Table of Contents
 - [Supervised Learning](https://github.com/SarahHannes/ml/blob/main/README.md#Supervised-Learning)
-  * [Regression](https://github.com/SarahHannes/ml/blob/main/README.md##Regression)
-    + [Simple Linear Regression](https://github.com/SarahHannes/ml/blob/main/README.md###Simple-Linear-Regression)
-    + [Non Linear Regression](https://github.com/SarahHannes/ml/blob/main/README.md###Non-Linear-Regression)
-  * [Classification](https://github.com/SarahHannes/ml/blob/main/README.md##Classification)
-    + [Decision Tree](https://github.com/SarahHannes/ml/blob/main/README.md###Decision-Tree)
-    + [K-Nearest Neighbors](https://github.com/SarahHannes/ml/blob/main/README.md###K-Nearest-Neighbors)
-    + [Logistic Regression](https://github.com/SarahHannes/ml/blob/main/README.md###Logistic-Regression)
-    + [Support Vector Machine](https://github.com/SarahHannes/ml/blob/main/README.md###Support-Vector-Machine)
+  * [Regression](https://github.com/SarahHannes/ml/blob/main/README.md#Regression)
+    + [Simple Linear Regression](https://github.com/SarahHannes/ml/blob/main/README.md#Simple-Linear-Regression)
+    + [Non Linear Regression](https://github.com/SarahHannes/ml/blob/main/README.md#Non-Linear-Regression)
+  * [Classification](https://github.com/SarahHannes/ml/blob/main/README.md#Classification)
+    + [Decision Tree](https://github.com/SarahHannes/ml/blob/main/README.md#Decision-Tree)
+    + [K-Nearest Neighbors](https://github.com/SarahHannes/ml/blob/main/README.md#K-Nearest-Neighbors)
+    + [Logistic Regression](https://github.com/SarahHannes/ml/blob/main/README.md#Logistic-Regression)
+    + [Support Vector Machine](https://github.com/SarahHannes/ml/blob/main/README.md#Support-Vector-Machine)
 - [Unsupervised Learning](https://github.com/SarahHannes/ml/blob/main/README.md#Unsupervised-Learning)
-  * [Clustering](https://github.com/SarahHannes/ml/blob/main/README.md##Clustering)
-    + [K-Means](https://github.com/SarahHannes/ml/blob/main/README.md###K-Means)
+  * [Clustering](https://github.com/SarahHannes/ml/blob/main/README.md#Clustering)
+    + [K-Means](https://github.com/SarahHannes/ml/blob/main/README.md#K-Means)
 
 
 <!-- toc -->
-# Supervised Learning
-## Regression 
-### Simple Linear Regression
+## Supervised Learning
+### Regression 
+#### Simple Linear Regression
 - <a href="/py/simple-linear-regression_grades.py">Student's Final Grade Predictor</a>
 <br>Uses <a href="https://archive.ics.uci.edu/ml/datasets/Student+Performance">
 Student Performance Data Set</a> from UCI ML Repository.
 
-### Non-Linear Regression
+#### Non-Linear Regression
 - <a href="/py/non-linear-regression_gdp.py">GDP Predictor</a>
 <br>Uses yearly GDP data. Can be obtained from various sources such as <a href="https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG">The World Bank</a>.
 
-## Classification
-### Decision Tree
+### Classification
+#### Decision Tree
 - <a href="/py/decisiontree_iris.py">Iris Species Decision Tree</a>
 <br>Uses iris dataset
 <br>Model Accuracy: 0.977
 <br><a href="/py/decisiontree_iris.py"><img src="/plot/decisiontree_iris.jpg" width="500"></a>
 
-### K-Nearest Neighbors
+#### K-Nearest Neighbors
 - <a href="/py/knn_iris.py">Iris Species Identification using KNN</a>
 <br>Uses iris dataset
 <br>The best accuracy was with 1.0 with k = 8
 <br><a href="/py/knn_iris.py"><img src="/plot/knn_iris_scatter.jpg" width="250"></a>
 <a href="/py/knn_iris.py"><img src="/plot/knn_iris_accuracy.jpg" width="300"></a>
 
-### Logistic Regression
+#### Logistic Regression
 - <a href="/py/logistic-regression-classification_iris.py">Iris Species Identification using Logistic Regression</a>
 <br>Uses iris dataset
 
@@ -80,7 +80,7 @@ Iris-versicolor       1.00      0.23      0.38        13
 Confusion Matrix
 <br><a href="/py/logistic-regression-classification_iris.py"><img src="/plot/logistic_regression_iris_cm_normalized-data.jpg" width="950"></a>
 
-### Support Vector Machine
+#### Support Vector Machine
 - <a href="/py/svm_iris.py">Iris Species Identification using various SVM kernels</a>
 <br>Uses iris dataset
 <br>Best accuracy obtained using SVM linear kernel with 0.85 accuracy score
@@ -135,9 +135,9 @@ Iris-Versicolor       0.50      1.00      0.67        10
 Confusion Matrix
 <br><a href="/py/svm_iris.py"><img src="/plot/svm_iris_cm.jpg" width="800"></a>
 
-# Unsupervised Learning
-## Clustering
-### K-Means
+## Unsupervised Learning
+### Clustering
+#### K-Means
 - <a href="/py/kmeans_iris.py">Iris Species Clustering</a>
 <br>Uses iris dataset
 <br> k = 3 clusters gives the best Rand Index score at 0.73
