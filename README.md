@@ -11,6 +11,7 @@
 - [Unsupervised Learning](https://github.com/SarahHannes/ml/blob/main/README.md#Unsupervised-Learning)
   * [Clustering](https://github.com/SarahHannes/ml/blob/main/README.md#Clustering)
     + [K-Means](https://github.com/SarahHannes/ml/blob/main/README.md#K-Means)
+    + [Agglomerative Hierarchical](https://github.com/SarahHannes/ml/blob/main/README.md#Agglomerative-Hierarchical)
 
 
 <!-- toc -->
@@ -60,7 +61,7 @@ Iris-versicolor       0.00      0.00      0.00        13
    weighted avg       0.43      0.57      0.46        30
 ```
 Confusion Matrix
-<br><a href="/py/logistic-regression-classification_iris.py"><img src="/plot/logistic_regression_iris_cm_raw-data.jpg" width="950"></a>
+<br><a href="/py/logistic-regression-classification_iris.py"><img src="/plot/logistic-regression_iris_cm_raw-data.jpg" width="950"></a>
 
 <br>Prediction using Normalized Data
 ```
@@ -78,7 +79,7 @@ Iris-versicolor       1.00      0.23      0.38        13
    weighted avg       0.88      0.67      0.64        30
 ```
 Confusion Matrix
-<br><a href="/py/logistic-regression-classification_iris.py"><img src="/plot/logistic_regression_iris_cm_normalized-data.jpg" width="950"></a>
+<br><a href="/py/logistic-regression-classification_iris.py"><img src="/plot/logistic-regression_iris_cm_normalized-data.jpg" width="950"></a>
 
 #### Support Vector Machine
 - <a href="/py/svm_iris.py">Iris Species Identification using various SVM kernels</a>
@@ -147,5 +148,19 @@ Confusion Matrix
 Optimization using elbow methods were also performed using both distortion and inertia.
 <br> Both methods confirm the best cluster is k = 3.
 <br><a href="/py/kmeans_iris.py"><img src="/plot/kmeans_iris_elbow-method.jpg" width="800"></a>
+
+#### Agglomerative Hierarchical
+- <a href="/py/agglomerative-clustering_iris.py">Iris Species Clustering</a>
+<br>Uses iris dataset
+<br><a href="/py/agglomerative-clustering_iris.py"><img src="/plot/agglomerative-clustering_iris_scatter.jpg" width="350"></a>
+<a href="/py/agglomerative-clustering_iris.py"><img src="/plot/agglomerative-clustering_iris_dendrogram.jpg" width="333"></a>
+
+```
+Evaluation using Species column as ground truth:
+Homogeneity Score: 0.744
+Adjusted Mutual Info Score: 0.753
+Normalized Mutual Info Score: 0.756
+V-measure Score: 0.756
+```
 
 Full credit belongs to its source. Thank you IBM for providing free education.
