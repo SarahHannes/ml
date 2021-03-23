@@ -155,6 +155,19 @@ Optimization using elbow methods were also performed using both distortion and i
 <br><a href="/py/agglomerative-clustering_iris.py"><img src="/plot/agglomerative-clustering_iris_scatter.jpg" width="350"></a>
 <a href="/py/agglomerative-clustering_iris.py"><img src="/plot/agglomerative-clustering_iris_dendrogram.jpg" width="333"></a>
 
+`iris.groupby(['cluster_', 'Species'])["SepalLengthCm", "SepalWidthCm", "PetalLengthCm", "PetalWidthCm"].mean()`
+```
+ 	                         SepalLengthCm 	SepalWidthCm 	PetalLengthCm 	PetalWidthCm
+cluster_ 	Species
+0 	       Iris-setosa 	    5.006000 	3.418000 	1.464000 	0.244000
+
+1 	       Iris-versicolor 	6.700000 	3.000000 	5.000000 	1.700000
+               Iris-virginica 	6.893939 	3.118182 	5.806061 	2.133333
+
+2 	       Iris-versicolor 	5.920408 	2.765306 	4.244898 	1.318367
+               Iris-virginica 	5.994118 	2.694118 	5.058824 	1.817647
+```
+
 ```
 Evaluation using Species column as ground truth:
 Homogeneity Score: 0.744
