@@ -4,7 +4,7 @@
 # Date: 24 Mar 2021
 #-----
 
-# Unsupervised Learning using DBSCAn
+# Unsupervised Learning using DBSCAN
 # Evaluation using Homogeneity, Completeness, V-measure, Adjusted Rand Index, Adjusted Mutual Information, Silhouette Coefficient
 
 # Load libraries
