@@ -12,6 +12,7 @@
   * [Clustering](https://github.com/SarahHannes/ml/blob/main/README.md#Clustering)
     + [K-Means](https://github.com/SarahHannes/ml/blob/main/README.md#K-Means)
     + [Agglomerative Hierarchical](https://github.com/SarahHannes/ml/blob/main/README.md#Agglomerative-Hierarchical)
+    + [DBSCAN](https://github.com/SarahHannes/ml/blob/main/README.md#DBSCAN)
 
 
 <!-- toc -->
@@ -174,6 +175,24 @@ Homogeneity Score: 0.744
 Adjusted Mutual Info Score: 0.753
 Normalized Mutual Info Score: 0.756
 V-measure Score: 0.756
+```
+
+#### DBSCAN
+- <a href="/py/dbscan_iris.py">Iris Species Clustering</a>
+<br>Uses iris dataset
+<br><a href="/py/dbscan_iris.py"><img src="/plot/dbscan_iris_scatter_labels_true.jpg" width="350"></a>
+<a href="/py/dbscan_iris.py"><img src="/plot/dbscan_iris_scatter_labels_pred.jpg" width="333"></a>
+
+```
+Evaluation using Species column as ground truth:
+Estimated number of clusters: 2
+Estimated number of noise points: 3
+Homogeneity: 0.576
+Completeness: 0.877
+V-measure: 0.696
+Adjusted Rand Index: 0.554
+Adjusted Mutual Info: 0.690
+Silhouette Coefficient: 0.555
 ```
 
 Full credit belongs to its source. Thank you IBM for providing free education.
