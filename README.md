@@ -13,6 +13,8 @@
     + [K-Means](https://github.com/SarahHannes/ml/blob/main/README.md#K-Means)
     + [Agglomerative Hierarchical](https://github.com/SarahHannes/ml/blob/main/README.md#Agglomerative-Hierarchical)
     + [DBSCAN](https://github.com/SarahHannes/ml/blob/main/README.md#DBSCAN)
+  * [Recommender Systems](https://github.com/SarahHannes/ml/blob/main/README.md#Recommender-Systems)
+    + [Content-based](https://github.com/SarahHannes/ml/blob/main/README.md#Content-based)
 
 
 <!-- toc -->
@@ -193,6 +195,29 @@ V-measure: 0.696
 Adjusted Rand Index: 0.554
 Adjusted Mutual Info: 0.690
 Silhouette Coefficient: 0.555
+```
+
+### Recommender Systems
+#### Content-based
+- <a href="/py/content-based_restaurant.py">Recomendating restaurants based on user past rating history</a>
+- Selected feature is the cuisine type
+- Datasets as provided <a href="datasets/content-based_restaurant/">here</a>. (Click <a href="https://archive.ics.uci.edu/ml/datasets/Restaurant+%26+consumer+data">here</a> to navigate to original source)
+- Future improvement:
+  - using knn to classify restaurant by cuisine type and use it as ground truth for evaluation
+  - adding/ incorporating other rating criterias to get a more solid user profile (only food_rating was considered in the existing built model)
+  - Somehow, all of the recommended placeID obtained from the model is not in geospatial2.csv file provided from the source (which I had assumed to contain all of the restaurants info).. Still unsure if this is a bug..
+- Output: df containig topN of recommended placeID & its weighted recommendation score for the specified userID
+```
+get_recommendation("U1138")
+```
+```
+Rcuisine 	total_by_place
+placeID 	
+132774 	7
+135099 	6
+135098 	4
+135103 	4
+135097 	4
 ```
 
 Full credit belongs to its source. Thank you IBM for providing free education.
