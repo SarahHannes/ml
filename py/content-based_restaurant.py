@@ -5,15 +5,15 @@ import numpy as np
 # Load data --------------------------
 
 # Get userID (PK)
-user = pd.read_csv("../input/restaurant-data-with-consumer-ratings/userprofile.csv")
+user = pd.read_csv("https://raw.githubusercontent.com/SarahHannes/ml/main/datasets/content-based_restaurant/userprofile.csv")
 user = user[["userID"]].drop_duplicates()
 
 # Get user_rating, delete unnecessary columns
-user_rating = pd.read_csv("../input/restaurant-data-with-consumer-ratings/rating_final.csv")
+user_rating = pd.read_csv("https://raw.githubusercontent.com/SarahHannes/ml/main/datasets/content-based_restaurant/rating_final.csv")
 user_rating = user_rating.drop(['rating', 'service_rating'], axis=1)
 
 # Get placeID (restaurantID) with cuisine info
-cuisine = pd.read_csv("../input/restaurant-data-with-consumer-ratings/chefmozcuisine.csv")
+cuisine = pd.read_csv("https://raw.githubusercontent.com/SarahHannes/ml/main/datasets/content-based_restaurant/chefmozcuisine.csv")
 # Gather all cuisine types into placeID and spread the cuisine type for each placeID 
 # as of now, all has NaN value, next step will insert 1 if the restaurant serve the particular cuisine type or 0 if it does not serve that cuisine
 cuisine_wide = cuisine.pivot(index='placeID', columns='Rcuisine', values='Rcuisine')
