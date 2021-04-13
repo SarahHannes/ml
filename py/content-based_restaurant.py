@@ -1,3 +1,9 @@
+#-----
+# Restaurants Content Based Recommendation System
+# Author: Sarah H
+# Date: 2 Apr 2021
+#-----
+
 # Import libraries --------------------------
 import pandas as pd
 import numpy as np
