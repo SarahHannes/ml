@@ -8,6 +8,7 @@
     + [K-Nearest Neighbors](https://github.com/SarahHannes/ml/blob/main/README.md#K-Nearest-Neighbors)
     + [Logistic Regression](https://github.com/SarahHannes/ml/blob/main/README.md#Logistic-Regression)
     + [Support Vector Machine](https://github.com/SarahHannes/ml/blob/main/README.md#Support-Vector-Machine)
+    + [Naive Bayes](https://github.com/SarahHannes/ml/blob/main/README.md#Naive-Bayes)
 - [Unsupervised Learning](https://github.com/SarahHannes/ml/blob/main/README.md#Unsupervised-Learning)
   * [Clustering](https://github.com/SarahHannes/ml/blob/main/README.md#Clustering)
     + [K-Means](https://github.com/SarahHannes/ml/blob/main/README.md#K-Means)
@@ -138,6 +139,26 @@ Iris-Versicolor       0.50      1.00      0.67        10
 ```
 Confusion Matrix
 <br><a href="/py/svm_iris.py"><img src="/plot/svm_iris_cm.jpg" width="800"></a>
+
+#### Naive Bayes
+- Spam/ Ham Classification (<a href="/py/naive_bayes_spam.ipynb">ipynb</a>, py)
+<br>Uses SMS Spam Collection Data Set from UCI (<a href="https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection">Original source</a>, <a href="/datasets/naive_bayes_spam/spam.csv">dataset raw file</a>)
+<br> Wordclouds
+<br><img src="/plot/naive_bayes_wordclouds.png" width="700"></a>
+<br> Evaluation: Classification Report and Log loss
+```
+              precision    recall  f1-score   support
+
+         ham       0.97      1.00      0.99       976
+        spam       0.99      0.81      0.89       139
+
+    accuracy                           0.98      1115
+   macro avg       0.98      0.91      0.94      1115
+weighted avg       0.98      0.98      0.97      1115
+```
+```
+Log loss: 0.836
+```
 
 ## Unsupervised Learning
 ### Clustering
