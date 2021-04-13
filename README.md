@@ -144,7 +144,7 @@ Confusion Matrix
 - Spam/ Ham Classification (<a href="/py/naive_bayes_spam.py">py</a>, <a href="/py/naive_bayes_spam.ipynb">ipynb</a>)
 <br>Uses SMS Spam Collection Data Set from UCI (<a href="https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection">Original source</a>, <a href="/datasets/naive_bayes_spam/spam.csv">dataset raw file</a>)
 <br> Wordclouds
-<br><img src="/plot/naive_bayes_wordclouds.png" width="700"></a>
+<br><a href="/py/naive_bayes_spam.py"><img src="/plot/naive_bayes_wordclouds.png" width="700"></a>
 <br> Evaluation: Classification Report and Log loss
 ```
               precision    recall  f1-score   support
