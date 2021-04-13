@@ -141,7 +141,7 @@ Confusion Matrix
 <br><a href="/py/svm_iris.py"><img src="/plot/svm_iris_cm.jpg" width="800"></a>
 
 #### Naive Bayes
-- Spam/ Ham Classification (<a href="/py/naive_bayes_spam.ipynb">ipynb</a>, py)
+- Spam/ Ham Classification (<a href="/py/naive_bayes_spam.py">py</a>, <a href="/py/naive_bayes_spam.ipynb">ipynb</a>)
 <br>Uses SMS Spam Collection Data Set from UCI (<a href="https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection">Original source</a>, <a href="/datasets/naive_bayes_spam/spam.csv">dataset raw file</a>)
 <br> Wordclouds
 <br><img src="/plot/naive_bayes_wordclouds.png" width="700"></a>
