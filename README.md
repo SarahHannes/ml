@@ -159,6 +159,8 @@ weighted avg       0.98      0.98      0.97      1115
 ```
 Log loss: 0.836
 ```
+Confusion Matrix
+<br><a href="/py//py/naive_bayes_spam.py"><img src="/plot/naive_bayes_cm.png" width="800"></a>
 
 ## Unsupervised Learning
 ### Clustering
