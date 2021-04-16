@@ -1,9 +1,3 @@
-#-----
-# SMS Spam Classification
-# Author: Sarah H
-# Date: 13 Apr 2021
-#-----
-
 # Import libraries ---------------------------------------------------------------
 import numpy as np
 import pandas as pd
@@ -15,7 +9,7 @@ import nltk
 from nltk.corpus import stopwords
 import re
 #pip install autocorrect
-from autocorrect import Speller
+#from autocorrect import Speller
 from nltk.stem import WordNetLemmatizer
 from nltk.stem.snowball import SnowballStemmer
 from wordcloud import WordCloud
@@ -23,6 +17,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import MultinomialNB
 from sklearn import metrics
+from sklearn.metrics import plot_confusion_matrix, matthews_corrcoef
 
 # Import data --------------------------------------------------------------------
 df = pd.read_csv("https://raw.githubusercontent.com/SarahHannes/ml/main/datasets/naive_bayes_spam/spam.csv")
@@ -260,3 +255,20 @@ print(metrics.classification_report(y_test, y_hat, target_names=target_name))
 
 # 2: Log loss
 print(f'Log loss: {metrics.log_loss(y_test, y_hat_prob):.3f}')
+
+# 3: Confusion Matrix
+cm_titles = [('Confusion Matrix: Not Normalized', None),
+         ('Confusion Matrix: Normalized by Predicted value', 'pred')]
+
+for title, norm_option in cm_titles:
+    disp = plot_confusion_matrix(nb, X_test, y_test,
+                                 display_labels=target_name,
+                                cmap=plt.cm.Blues,
+                                normalize=norm_option)
+    disp.ax_.set_title(title)
+
+plt.tight_layout()
+plt.show()
+
+# 4: Mathews Correlation Coefficient
+print(f'Matthews Correlation Coefficient: {matthews_corrcoef(y_test, y_hat):.3f}')
