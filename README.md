@@ -145,7 +145,7 @@ Confusion Matrix
 <br>Uses SMS Spam Collection Data Set from UCI (<a href="https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection">Original source</a>, <a href="/datasets/naive_bayes_spam/spam.csv">dataset raw file</a>)
 <br> Wordclouds
 <br><a href="/py/naive_bayes_spam.py"><img src="/plot/naive_bayes_wordclouds.png" width="700"></a>
-<br> Evaluation: Classification Report and Log loss
+<br> Evaluation: Classification Report, Log loss, Matthew Correlation Coefficient and Confusion Matrix
 ```
               precision    recall  f1-score   support
 
@@ -158,9 +158,10 @@ weighted avg       0.98      0.98      0.97      1115
 ```
 ```
 Log loss: 0.836
+Matthews Correlation Coefficient: 0.885
 ```
 Confusion Matrix
-<br><a href="/py//py/naive_bayes_spam.py"><img src="/plot/naive_bayes_cm.png" width="800"></a>
+<br><a href="/py/naive_bayes_spam.py"><img src="/plot/naive_bayes_cm.png" width="800"></a>
 
 ## Unsupervised Learning
 ### Clustering
