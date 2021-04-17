@@ -1,3 +1,9 @@
+#-----
+# Spam Classification using Multinomial Naive Bayes
+# Author: Sarah H
+# Date: 13 Apr 2021
+#-----
+
 # Import libraries ---------------------------------------------------------------
 import numpy as np
 import pandas as pd
