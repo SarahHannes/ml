@@ -1,3 +1,6 @@
+Models made while progressing through IBM open courseware.
+<br>Course info can be found <a href="https://cognitiveclass.ai/courses/machine-learning-with-python">here</a>.
+
 # Table of Contents
 - [Supervised Learning](https://github.com/SarahHannes/ml/blob/main/README.md#Supervised-Learning)
   * [Regression](https://github.com/SarahHannes/ml/blob/main/README.md#Regression)
