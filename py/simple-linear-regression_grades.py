@@ -14,7 +14,7 @@ import numpy as np
 
 ### Step 1: Data Pre-processing ###
 ## Read data
-df = pd.read_csv("../input/studentperformance/student-appended-mat-por.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/SarahHannes/ml/main/datasets/linear_regression_grades/student-appended-mat-por.csv")
 
 ## Summarize data
 df.describe()
