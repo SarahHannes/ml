@@ -1,4 +1,4 @@
-Models made while progressing through IBM open courseware.
+Models made while progressing through IBM open courseware and other personal projects.
 <br>Course info can be found <a href="https://cognitiveclass.ai/courses/machine-learning-with-python">here</a>.
 
 # Table of Contents
@@ -168,7 +168,7 @@ Confusion Matrix
 
 ## Unsupervised Learning
 ### Clustering
-#### K-Means
+#### K-Means - Iris clustering
 - <a href="/py/kmeans_iris.py">Iris Species Clustering</a>
 <br>Uses iris dataset
 <br> k = 3 clusters gives the best Rand Index score at 0.73
@@ -178,6 +178,10 @@ Confusion Matrix
 Optimization using elbow methods were also performed using both distortion and inertia.
 <br> Both methods confirm the best cluster is k = 3.
 <br><a href="/py/kmeans_iris.py"><img src="/plot/kmeans_iris_elbow-method.jpg" width="800"></a>
+
+#### K-Means - Compressing Image Color
+- <a href="/py/kmeans_compressing_image_color.ipynb">Compressing Image Color</a>
+<br>Uses K Means clustering to reduce the original color scale to predefined clusters.
 
 #### Agglomerative Hierarchical
 - <a href="/py/agglomerative-clustering_iris.py">Iris Species Clustering</a>
